@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(./GYM.jpg);
+}
+.left{
+    background: white;
+display: inline-block;
+border: 2px solid red;
+position: absolute;
+left: 32px;
+top: 20px;
+}
+.mid{
+    background: white;
+border: 2px yellow;
+margin: 20px auto;
+width: 33%;
+border: 2px solid green;
+}
+.right{
+    background: white;
+position: absolute;
+right: 34px;
+top: 20px;
+display: inline-block;
+border: 2px green solid;
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+display: inline-block;
+font-size: 25px;
+}
+.navbar li a{
+color: white;
+text-decoration: none;
+padding: 34px 23px;
+}
